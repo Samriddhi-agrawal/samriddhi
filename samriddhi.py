@@ -1,4 +1,4 @@
-import tkinter import *
+import tkinter as tk
 import random
 
 def next_turn():
@@ -118,6 +118,8 @@ reset_button.pack(side="top")
 
 frame= frame(window)
 frame.pack()
+
+window.mainloop()
 
 for row in range(3):
     for column in range(3):
